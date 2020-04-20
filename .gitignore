@@ -1,0 +1,15 @@
+*.pyc
+*~
+.*
+*.swp
+
+bin/
+include/
+lib/
+local/
+share/
+build/
+dist/
+*.egg-info/
+pip-selfcheck.json
+pyvenv.cfg

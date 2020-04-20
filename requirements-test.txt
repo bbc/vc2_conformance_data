@@ -1,0 +1,4 @@
+pytest
+vc2_conformance
+vc2_bit_widths
+vc2_data_tables
