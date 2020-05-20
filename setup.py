@@ -1,6 +1,11 @@
+import os
+
 from setuptools import setup, find_packages
 
-with open("vc2_conformance_data/version.py", "r") as f:
+version_file = os.path.join(
+    os.path.dirname(__file__), "vc2_conformance_data", "version.py",
+)
+with open(version_file, "r") as f:
     exec (f.read())  # noqa: E211
 
 setup(
