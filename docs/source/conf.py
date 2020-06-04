@@ -37,10 +37,6 @@ add_module_names = False
 
 intersphinx_mapping = {
     "python": ("http://docs.python.org/3", None),
-    "ast": ("https://greentreesnakes.readthedocs.io/en/latest/", None),
-    "sympy": ("https://docs.sympy.org/latest/", None),
-    # TODO: vc2_conformance
-    # TODO: vc2_bit_widths
 }
 
 
@@ -53,6 +49,18 @@ html_static_path = ["_static"]
 
 # -- Options for PDF output --------------------------------------------------
 
+# This is a tiny document so don't bother with full manual formatting
+latex_theme = "howto"
+
+# Show hyperlink URLs in footnotes
+latex_show_urls = "footnote"
+
+# Don't include a module index (there's only one...)
+latex_domain_indices = False
+
 latex_elements = {
     "papersize": "a4paper",
+    # Disable the ToC and index since this is a tiny module...
+    "tableofcontents": r"",
+    "printindex": r"",
 }
