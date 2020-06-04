@@ -6,34 +6,36 @@ This Python module contains data files and test pictures used by the
 conformance testing software.
 
 
-Setup
------
-
-This module has no dependencies and may be installed as usual:
-
-    $ python setup.py install
-
-Documentation
--------------
-
-The documentation may be built using [Sphinx](https://www.sphinx-doc.org/) like
-so:
-
-    $ pip install -r requirements-doc.txt
-    $ cd docs/
-    $ make html
-
-
-Development & Tests
+Work in progress...
 -------------------
 
-A test suite is provided to check that all data files can be read and are
-complete.
+This software is being produced as part of an effort to update the (currently
+out-of-date) RP 2042-3 (VC-2 Conformance) document. When complete, these tools
+and the associated document will allow codec implementers to verify the
+conformance of their implementations with the SMPTE ST 2042-1 (VC-2) standard.
 
-    $ pip install -r requirements-test.txt
-    $ py.test tests/
+This software is currently a work in progress.  Contact [Jonathan
+Heathcote](mailto:jonathan.heathcote@bbc.co.uk) or [John
+Fletcher](mailto:john.fletcher@bbc.co.uk) for more information.
 
-[Pre-commit](https://pre-commit.com/) hooks are provided which should be used
-to ensure that all files are auto-formatted with
-[black](https://github.com/psf/black) and pass the
-[flake8](https://flake8.pycqa.org/en/latest/) linter checks.
+
+Developers
+----------
+
+For details on setting up a developer's installation of this software,
+including instructions on building the associated documentation, see the
+[developer installation instructions for the main `vc2_conformance`
+repository](https://github.com/bbc/vc2_conformance/blob/master/docs/source/developer_guide/developer_installation.rst).
+
+
+See also
+--------
+
+* [`vc2_conformance`](https://github.com/bbc/vc2_conformance) The main VC-2
+  conformance testing software repository
+
+* [`vc2_data_tables`](https://github.com/bbc/vc2_data_tables): Data tables and
+  constant definitions from the VC-2 standard.
+
+* [`vc2_bit_widths`](https://github.com/bbc/vc2_bit_widths) Mathematical
+  routines for computing near worst case signals for VC-2 codecs.
