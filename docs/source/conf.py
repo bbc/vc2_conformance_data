@@ -15,8 +15,8 @@ sys.path.insert(0, os.path.abspath("../.."))
 # -- Project information -----------------------------------------------------
 
 project = "Data Files for SMPTE VC-2 Conformance Testing"
-copyright = "2020, SMPTE"
-author = "SMPTE"
+copyright = "2021, BBC"
+author = "BBC"
 
 release = version
 
