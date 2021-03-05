@@ -10,6 +10,10 @@ version_file = os.path.join(
 with open(version_file, "r") as f:
     exec (f.read())  # noqa: E211
 
+readme_file = os.path.join(os.path.dirname(__file__), "README.md")
+with open(readme_file, "r") as f:
+    long_description = f.read()
+
 setup(
     name="vc2_conformance_data",
     version=__version__,  # noqa: F821
@@ -21,6 +25,8 @@ setup(
         "Test data and images for the conformance testing software "
         "for the SMPTE ST 2042-1 VC-2 professional video codec."
     ),
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     license="GPL-3.0-only",
     classifiers=[
         "Development Status :: 3 - Alpha",
