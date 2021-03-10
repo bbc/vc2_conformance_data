@@ -5,6 +5,23 @@ VC-2 Conformance Data
 This :py:mod:`vc2_conformance_data` module contains data files and test
 pictures for use in conformance testing procedures.
 
+You can find the source code (and data files) for
+:py:mod:`vc2_conformance_data` `on GitHub
+<https://github.com/bbc/vc2_conformance_data/>`_.
+
+.. only:: not latex
+
+    .. note::
+
+        This documentation is also `available in PDF format
+        <https://bbc.github.io/vc2_conformance_data/vc2_conformance_data_manual.pdf>`_.
+
+.. only:: not html
+
+    .. note::
+
+        This documentation is also `available to browse online in HTML format
+        <https://bbc.github.io/vc2_conformance_data/>`_.
 
 Static filter analysis data
 ---------------------------

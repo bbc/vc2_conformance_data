@@ -25,6 +25,7 @@ release = version
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
+    "sphinxcontrib.intertex",
 ]
 
 # -- Options for numpydoc/autodoc --------------------------------------------
@@ -37,6 +38,22 @@ add_module_names = False
 
 intersphinx_mapping = {
     "python": ("http://docs.python.org/3", None),
+    "vc2_conformance": ("https://bbc.github.io/vc2_conformance/", None),
+    "vc2_bit_widths": ("https://bbc.github.io/vc2_bit_widths/", None),
+}
+
+
+# -- Options for intertex ----------------------------------------------------
+
+intertex_mapping = {
+    "vc2_conformance": [
+        "{vc2_conformance}/../docs/build/latex/*.aux",
+        "https://bbc.github.io/vc2_conformance/vc2_conformance_manual.aux",
+    ],
+    "vc2_bit_widths": [
+        "{vc2_bit_widths}/../docs/build/latex/*.aux",
+        "https://bbc.github.io/vc2_bit_widths/vc2_bit_widths_manual.aux",
+    ],
 }
 
 
