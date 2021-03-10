@@ -1,4 +1,4 @@
 pytest
-vc2_conformance
-vc2_bit_widths
-vc2_data_tables
+vc2_conformance~=1.0.0
+vc2_bit_widths~=1.0.0
+vc2_data_tables~=1.0.0
