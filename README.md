@@ -6,7 +6,7 @@ This Python module contains data files and test pictures used by the
 conformance testing software.
 
 To get started, read the [`vc2_conformance_data`
-manual](https://bbc.github.io/vc2_conformance_data/) (also available as a [PDF
+manual](https://bbc.github.io/vc2_conformance_data/) (also available in [PDF
 format](https://bbc.github.io/vc2_conformance_data/vc2_conformance_data_manual.pdf)).
 
 
